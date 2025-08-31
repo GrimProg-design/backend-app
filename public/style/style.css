@@ -18,11 +18,22 @@ h1 {
     margin: 0;
 }
 
+.search {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    right: 20px;
+    top: 8px;
+    border-radius: 25px;
+}
+
 img {
-    max-width: 40px;
+    width: 40px;
     height: auto;
     flex-shrink: 0;
     background-color: aliceblue;
     border-radius: 50%;
     cursor: pointer;
+    border: 1px solid black;
 }
+
