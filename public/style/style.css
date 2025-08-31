@@ -1,8 +1,28 @@
-p {
-    color: rgb(255, 105, 105);
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.header-wrapper {
+    display: flex;
+    background-color: rgb(213, 144, 55);
 }
 
 nav {
     display: flex;
     gap: 20px;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+img {
+    max-width: 40px;
+    height: auto;
+    flex-shrink: 0;
+    background-color: aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
 }
