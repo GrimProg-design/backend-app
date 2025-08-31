@@ -1,0 +1,8 @@
+p {
+    color: rgb(255, 105, 105);
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
