@@ -7,6 +7,6 @@ router.get("/", homeController);
 
 router.get("/users", usersController);
 
-router.post("/", userController)
+router.post("/", userController);
 
 export default router;

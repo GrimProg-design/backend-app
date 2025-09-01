@@ -2,3 +2,6 @@ extends layout.pug
 
 block content 
     h2 User page
+    ul 
+        each user in users
+            li= user.name + " (" + user.age + " лет)" + " - " + user.proffesion
