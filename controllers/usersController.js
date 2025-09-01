@@ -11,3 +11,7 @@ export const usersController = (req, res) => {
 export const homeController = (req, res) => {
     res.render("home")
 }
+
+export const userController = (req, res) => {
+  res.render("user")
+}
